@@ -34,8 +34,10 @@ fn doctrine() -> &'static str { "the beat drops or it doesn't. same rule applies
 <div align="center">
 
 [![NASA fprime](https://img.shields.io/badge/NASA-F_Prime-0033A0?style=for-the-badge&logo=nasa&logoColor=white)](https://github.com/nasa/fprime/pulls?q=author%3Aphilphauler)
+[![NASA cFS](https://img.shields.io/badge/NASA-cFS_Apps-0033A0?style=for-the-badge&logo=nasa&logoColor=white)](https://github.com/search?q=org%3Anasa+author%3Aphilphauler&type=pullrequests)
 [![tokio](https://img.shields.io/badge/tokio--rs-tokio-000?style=for-the-badge)](https://github.com/tokio-rs/tokio/pulls?q=author%3Aphilphauler)
 [![ArduPilot](https://img.shields.io/badge/ArduPilot-ardupilot-orange?style=for-the-badge)](https://github.com/ArduPilot/ardupilot/pulls?q=author%3Aphilphauler)
+[![PLUR](https://img.shields.io/badge/plur--ai-plur-6366f1?style=for-the-badge)](https://github.com/plur-ai/plur/pulls?q=author%3Aphilphauler)
 [![Struktura](https://img.shields.io/badge/crates.io-struktura-e6522c?style=for-the-badge&logo=rust&logoColor=white)](https://crates.io/crates/struktura)
 
 </div>
@@ -44,14 +46,18 @@ fn doctrine() -> &'static str { "the beat drops or it doesn't. same rule applies
 <tr>
 <td width="50%" valign="top">
 
-**NASA F Prime** — flight software framework for spacecraft. Fixed unsigned underflows, state leaks, defense-in-depth gaps. Proposed onboard DFA health monitor.
+**NASA F Prime** — flight software framework for spacecraft. 8 PRs: unsigned underflows, state leaks, flaky test stabilization, deny-by-default sandboxing, onboard DFA health monitor proposal.
 
-**tokio** — Rust async runtime. Fixed io_uring panic when IO driver disabled. Resolved clippy warnings in Windows named pipe module.
+**NASA cFS** — core Flight System apps (HS, LC, DS, ogma). Fixed processor-reset bug on bad app names, removed dead code, fixed spec merge in ogma.
+
+**tokio** — Rust async runtime. Fixed io_uring panic when IO driver disabled. Added Safety docs for named pipe options.
 
 </td>
 <td width="50%" valign="top">
 
-**ArduPilot** — open-source autopilot for drones and rovers. Fixed DDS timestamp overflow, scheduler rate clamping for gimbal drivers. Proposed structural health monitoring.
+**PLUR** — persistent memory for AI agents. Fixed embedder disposal (ONNX teardown abort), dedup co_injection events. Root-cause analysis on host-header auth bypass + statement injection.
+
+**ArduPilot** — open-source autopilot. Fixed DDS timestamp overflow, scheduler rate clamping for gimbal drivers.
 
 **Struktura** — published Rust crate for anomaly detection. Detected bearing faults across 3 fault types from raw vibration. Zero dependencies.
 
@@ -67,7 +73,7 @@ fn doctrine() -> &'static str { "the beat drops or it doesn't. same rule applies
 
 ### 🧬 the engine
 
-**KODON** discovers exact mathematical laws from raw data. No LLM. No guessing. 7 derive faculties, 2930 verified theories.
+**KODON** discovers exact mathematical laws from raw data. No LLM. No guessing. 7 derive faculties, 234,000+ verified laws, self-evolving ouroboros loop.
 
 ```
 INPUT:  1 1 2 3 5 8 13 21
@@ -216,7 +222,7 @@ Started building tools for music. Realized "measure, don't guess" applies to eve
 
 <div align="center">
 
-**16,000+ contributions this year · 55 repos · building nonstop**
+**16,693 contributions this year · 22 PRs across NASA, tokio, ArduPilot, PLUR · building nonstop**
 
 ```
 ∀claim: PROVE(claim) ∨ ABSTAIN     // the only rule
