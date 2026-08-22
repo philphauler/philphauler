@@ -29,6 +29,38 @@ fn doctrine() -> &'static str { "the beat drops or it doesn't. same rule applies
 
 ---
 
+### contributing to
+
+<div align="center">
+
+[![NASA fprime](https://img.shields.io/badge/NASA-F_Prime-0033A0?style=for-the-badge&logo=nasa&logoColor=white)](https://github.com/nasa/fprime/pulls?q=author%3Aphilphauler)
+[![tokio](https://img.shields.io/badge/tokio--rs-tokio-000?style=for-the-badge)](https://github.com/tokio-rs/tokio/pulls?q=author%3Aphilphauler)
+[![ArduPilot](https://img.shields.io/badge/ArduPilot-ardupilot-orange?style=for-the-badge)](https://github.com/ArduPilot/ardupilot/pulls?q=author%3Aphilphauler)
+[![Struktura](https://img.shields.io/badge/crates.io-struktura-e6522c?style=for-the-badge&logo=rust&logoColor=white)](https://crates.io/crates/struktura)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**NASA F Prime** — flight software framework for spacecraft. Fixed unsigned underflows, state leaks, defense-in-depth gaps. Proposed onboard DFA health monitor.
+
+**tokio** — Rust async runtime. Fixed io_uring panic when IO driver disabled. Resolved clippy warnings in Windows named pipe module.
+
+</td>
+<td width="50%" valign="top">
+
+**ArduPilot** — open-source autopilot for drones and rovers. Fixed DDS timestamp overflow, scheduler rate clamping for gimbal drivers. Proposed structural health monitoring.
+
+**Struktura** — published Rust crate for anomaly detection. Detected bearing faults across 3 fault types from raw vibration. Zero dependencies.
+
+</td>
+</tr>
+</table>
+
+---
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -184,7 +216,7 @@ Started building tools for music. Realized "measure, don't guess" applies to eve
 
 <div align="center">
 
-**55 repos · mostly private · building nonstop**
+**16,000+ contributions this year · 55 repos · building nonstop**
 
 ```
 ∀claim: PROVE(claim) ∨ ABSTAIN     // the only rule
